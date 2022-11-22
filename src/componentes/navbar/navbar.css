@@ -1,11 +1,11 @@
 /* es lo que dice bienvenidos todo lo demas debajo de la barra */
 section{
-    color: rgb(235, 229, 223);
+    color: rgb(228, 221, 214);
     text-shadow: 3px 3px rgb(36, 21, 1) ;
-    background-color: rgb(216, 171, 126);
+    background-color: rgba(27, 25, 22, 0.918);
     height: 100vh;
 }
 /* color de la barra de arriba del menu */
 .NavA{
-background-color: rgb(245, 198, 129);
+background-color: rgba(96, 175, 175, 0.993);
 }
