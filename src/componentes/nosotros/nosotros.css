@@ -2,11 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
+.imagenPagina{
+    border: solid 1px black;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 20px;
+}
 .presentacionPile{
     border: solid 1px black;
     padding: 3px;
     margin: 5px;
-    
+    border-radius: 20px;
+
 }
 
 .contenedorTexto{
@@ -18,5 +26,15 @@
     padding: 40px;
     color: rgb(241, 237, 237);
     text-shadow: 1px 1px rgb(5, 5, 5);
+    overflow: auto;
+    width: 500px;
+    height: 500px;
 
+}
+
+.jacuzzi{
+    border: solid 1px black;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 20px;
 }

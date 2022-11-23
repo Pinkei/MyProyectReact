@@ -3,9 +3,10 @@ section{
     color: rgb(228, 221, 214);
     text-shadow: 3px 3px rgb(36, 21, 1) ;
     background-color: rgba(27, 25, 22, 0.918);
-    height: 100vh;
+    
 }
 /* color de la barra de arriba del menu */
 .NavA{
 background-color: rgba(96, 175, 175, 0.993);
+
 }

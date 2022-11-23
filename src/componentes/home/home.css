@@ -1,3 +1,36 @@
-.homeImg{
-padding: 50px;
+.piletasillon{
+    border: solid 1px black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+
+.contenedorbb{
+    display: inline-block;
+    font-style: italic;
+    font-weight: 450;
+    font-size: 25px;
+    line-height: 1.6;
+    padding: 40px;
+    color: rgb(241, 237, 237);
+    text-shadow: 1px 1px rgb(5, 5, 5);
+    overflow: auto;
+    width: 500px;
+    height: 350px;
+}
+
+.pileDos{
+    border: solid 1px black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+
+.pileTres{
+    border: solid 1px black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
 }

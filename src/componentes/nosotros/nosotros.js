@@ -2,6 +2,8 @@ import React from "react"
 import "../nosotros/nosotros.css"
 import Piletacuatro from "../img/Piletacuatro.jpg"
 import img_pag from "../img/img_pag.png"
+import Footer from "../footer/footer"
+import jacuzzi from "../img/jacuzzi.jpeg"
 
 
 const nosotros = () => {
@@ -14,8 +16,10 @@ const nosotros = () => {
             </div>
             {/* agegar un carrosuel para que vayan pasando las fotos */}
             <div className="contenedorImagen">
-            {/* <img src={Piletacuatro} className="presentacionPile" alt="Armado de pileta"/> */}
             <img src={img_pag} className="imagenPagina" alt="pileta"/>
+            <img src={jacuzzi} className="jacuzzi" alt="jacuzzi"/>
+            <img src={Piletacuatro} className="presentacionPile" alt="Armado de pileta"/>
+            <Footer/>
             </div>
         </header>
 
