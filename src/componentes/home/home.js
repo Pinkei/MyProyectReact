@@ -9,7 +9,7 @@ import pileta from "../img/pileta.jpeg"
 
 const Home = () => {
     return(
-        <header>
+        <header className="contenedorHome">
             <h1>Bienvenidos</h1>
             <div>
             <img src={icon} className="piletasillon" alt="Foto perfil"/>

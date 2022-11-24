@@ -3,7 +3,16 @@
     padding: 0;
 }
 
-.imagenPagina{
+.contenedorNosotros{
+    background-image: url('../img/img_pag.png');
+    background-color: rgb(221, 219, 219);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    height: 150vh;
+}
+/* .imagenPagina{
     border: solid 1px black;
     padding: 3px;
     margin: 5px;
@@ -17,26 +26,25 @@
     margin: 5px;
     border-radius: 20px;
 
-}
+} */
 
 .contenedorTexto{
     display: inline-block;
     font-style: italic;
     font-weight: 450;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.6;
     padding: 40px;
-    color: rgb(241, 237, 237);
-    text-shadow: 1px 1px rgb(5, 5, 5);
-    overflow: auto;
-    width: 500px;
-    height: 500px;
-
+    color: rgb(252, 246, 246);
+    text-shadow: 1px 3px rgb(5, 5, 5);
+    width: 900px;
+    margin: 50px; 
 }
+
 
 .jacuzzi{
     border: solid 1px black;
     padding: 3px;
-    margin: 5px;
+    margin: 25px;
     border-radius: 20px;
 }

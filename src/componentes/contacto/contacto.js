@@ -1,7 +1,7 @@
 import React from "react"
 import { useForm } from "react-hook-form";
 import "./contacto.css"
-import Footer from "../footer/footer"
+
 
 const Contacto = () => {
     const { register, formState:{errors} ,handleSubmit } = useForm("");
@@ -59,7 +59,7 @@ const Contacto = () => {
             </div>
             <input type="Submit" value="Enviar" className="botonEnviar"/>
         </form>
-            {/* <Footer/> */}
+        
         </div>
     )
 }
