@@ -8,6 +8,8 @@
     padding: 3px;
     margin: 5px;
     border-radius: 20px;
+    width: 900px;
+    height: 700px;
 }
 .presentacionPile{
     border: solid 1px black;

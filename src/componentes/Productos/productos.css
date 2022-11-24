@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* no puedo cambiar los tamaños de las fotos para que queden igual */
+.atermicosProductos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 25px 5px;
+    
+    
+}
+
+.btnCompre{
+    background-color: rgb(49, 47, 47);
+    border-radius: 5px;
+    font-weight:bold;
+    background-color:rgb(27, 27, 29); 
+    color:white; 
+    text-decoration:underline; 
+}
