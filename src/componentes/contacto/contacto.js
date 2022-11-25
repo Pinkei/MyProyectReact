@@ -36,7 +36,6 @@ const Contacto = () => {
                 })} />
 
             {errors.email?.type==='pattern' && <p>El formato es incorrecto</p>}
-
             </div>
             <div>
                 <label>Telefono</label>
