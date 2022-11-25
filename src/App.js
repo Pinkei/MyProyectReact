@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Home from './componentes/home/home';
-import Contacto from './componentes/Contacto/Contacto';
+import Contacto from './componentes/contacto/contacto';
 import Nosotros from './componentes/nosotros/nosotros';
 import Tienda from './componentes/tienda/tienda';
 import NavBarExamples from './componentes/navbar/navbar';
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<NavBarExamples/>}>
           <Route index element={<Home/>} />
-          <Route path='/Contacto' element={<Contacto/>}/>
+          <Route path='/contacto' element={<Contacto/>}/>
           <Route path='/nosotros' element={<Nosotros/>} />
           <Route path='/tienda' element={<Tienda/>} />
           
