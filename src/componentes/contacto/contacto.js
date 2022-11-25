@@ -23,7 +23,6 @@ const Contacto = () => {
 
                 {errors.nombre?.type==='maxlength' && <p>El campo nombre debe tener menos de 10 caracteres</p>}
 
-
             </div>
             <div>
                 <label>Apellido</label>
@@ -44,9 +43,9 @@ const Contacto = () => {
                 <input type="number"{...register('telefono',{required: true,
                 maxLength:10})} />
 
-{errors.telefono?.type==='required' && <p>El campo telefono es obligatorio</p>}
+                {errors.telefono?.type==='required' && <p>El campo telefono es obligatorio</p>}
 
-{errors.telefono?.type==='maxlength' && <p>El campo telefono debe tener menos de 10 caracteres</p>}
+                {errors.telefono?.type==='maxlength' && <p>El campo telefono debe tener menos de 10 caracteres</p>}
 
             </div>
             <div>
@@ -61,6 +60,6 @@ const Contacto = () => {
         </form>
         
         </div>
-    )
-}
+    );
+};
 export default Contacto

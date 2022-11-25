@@ -18,7 +18,7 @@ function App() {
           //ruta padre 
         <Route path='/' element={<NavBarExamples/>}>
           <Route index element={<Home/>} />
-          <Route path='contacto' element={<Contacto/>}/>
+          <Route path='Contacto' element={<Contacto/>}/>
           <Route path='nosotros' element={<Nosotros/>} />
           <Route path='tienda' element={<Tienda/>} />
           
