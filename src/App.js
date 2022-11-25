@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Home from './componentes/home/home';
-import Contacto from './componentes/contacto/contacto';
+import Contacto from './componentes/Contacto/contacto';
 import Nosotros from './componentes/nosotros/nosotros';
 import Tienda from './componentes/tienda/tienda';
 import NavBarExamples from './componentes/navbar/navbar';
@@ -12,6 +12,9 @@ import NavBarExamples from './componentes/navbar/navbar';
 function App() {
   return (
     <div className="App">
+      <div>
+        <p>holaladlkladsgfdsfb</p>
+      </div>
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<NavBarExamples/>}>
