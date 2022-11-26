@@ -1,6 +1,6 @@
-import "./tienda.css"
 import Footer from "../footer/footer"
 import Productos from "../Productos/Productos"
+
 
 const tienda = () => {
     

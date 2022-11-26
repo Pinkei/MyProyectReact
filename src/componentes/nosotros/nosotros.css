@@ -4,13 +4,13 @@
 }
 
 .contenedorNosotros{
-    background-image: url('../img/img_pag.png');
+    background-image: url('../img/aguaFondo.jpg');
     background-color: rgb(221, 219, 219);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 2rem;
-    height: 150vh;
+    height: 100%;
 }
 /* .imagenPagina{
     border: solid 1px black;

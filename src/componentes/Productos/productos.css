@@ -7,10 +7,10 @@
 .atermicosProductos{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     padding: 25px 5px;
-    background-image: url('../img/aguafondo_pileta.jpg');
+    background-image: url('../img/gotasAgua.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

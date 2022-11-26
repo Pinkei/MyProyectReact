@@ -13,10 +13,12 @@ const Contacto = () => {
         <div className="form">
             <h1>Contacto</h1>
             <h3> Para ponerse en contacto con nosotros complete el siguiente formulario</h3>
+            <main class="main">
+
             <form className="formEstilo" onSubmit={handleSubmit(onSubmit)}>
             <div>
-                <label>Nombre</label>
-                <input type="text" {...register('nombre',{required: true,
+                {/* <label>Nombre</label> */}
+                <input type="text" placeholder="Nombre" className="inputContenedor" {...register('nombre',{required: true,
                 maxLength:10})} />
 
                 {errors.nombre?.type==='required' && <p>El campo nombre es obligatorio</p>}
@@ -25,21 +27,21 @@ const Contacto = () => {
 
             </div>
             <div>
-                <label>Apellido</label>
-                <input type="text" {...register('apellido',{required: true
+                {/* <label>Apellido</label> */}
+                <input type="text" placeholder="Apellido" className="inputContenedor" {...register('apellido',{required: true
                 })} />
             </div>
             <div>
-                <label>Email</label>
-                <input type="text" {...register('email',{
+                {/* <label>Email</label> */}
+                <input type="text" placeholder="Email" className="inputContenedor" {...register('email',{
                     pattern: /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/
                 })} />
 
             {errors.email?.type==='pattern' && <p>El formato es incorrecto</p>}
             </div>
             <div>
-                <label>Telefono</label>
-                <input type="number"{...register('telefono',{required: true,
+                {/* <label>Telefono</label> */}
+                <input type="text" placeholder="Telefono" className="inputContenedor" {...register('telefono',{required: true,
                 maxLength:10})} />
 
                 {errors.telefono?.type==='required' && <p>El campo telefono es obligatorio</p>}
@@ -48,8 +50,9 @@ const Contacto = () => {
 
             </div>
             <div>
-                <label>Asunto</label>
-                <select {...register('metodos')}>
+                {/* <label>Asunto</label> */}
+                <select className="inputContenedor" {...register('metodos')}>
+                <option value="as"> Asunto</option>
                     <option value="en"> Envios</option>
                     <option value="pr"> Presupuestos </option>
                     <option value="ct"> Citas </option>
@@ -57,7 +60,7 @@ const Contacto = () => {
             </div>
             <input type="Submit" value="Enviar" className="botonEnviar"/>
         </form>
-        
+        </main>
         </div>
     );
 };

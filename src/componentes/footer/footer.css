@@ -7,6 +7,9 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
-    width: 200vh;
+    width: 100%;
+    position: absolute;
+    left:0;
+    right: 0;
 
 }

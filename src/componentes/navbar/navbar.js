@@ -2,6 +2,7 @@ import { Navbar, Nav, Container} from "react-bootstrap"
 import {Outlet, Link} from "react-router-dom"
 import "./navbar.css"
 
+
 const NavBarExamples = () => {
     return(
         <>

@@ -8,13 +8,10 @@ import Tienda from './componentes/tienda/tienda';
 import NavBarExamples from './componentes/navbar/navbar';
 
 
-
 function App() {
   return (
     <div className="App">
-      <div>
-        <p>holaladlkladsgfdsfb</p>
-      </div>
+
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<NavBarExamples/>}>
@@ -22,7 +19,6 @@ function App() {
           <Route path='/contacto' element={<Contacto/>}/>
           <Route path='/nosotros' element={<Nosotros/>} />
           <Route path='/tienda' element={<Tienda/>} />
-          
         </Route>
       </Routes>
       </BrowserRouter>
