@@ -12,39 +12,53 @@
     padding: 2rem;
     height: 100%;
 }
-/* .imagenPagina{
-    border: solid 1px black;
-    padding: 3px;
-    margin: 5px;
-    border-radius: 20px;
-    width: 900px;
-    height: 700px;
-}
-.presentacionPile{
-    border: solid 1px black;
-    padding: 3px;
-    margin: 5px;
-    border-radius: 20px;
-
-} */
 
 .contenedorTexto{
+    display: flex;
     display: inline-block;
     font-style: italic;
     font-weight: 450;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 1.6;
-    padding: 40px;
+    padding: 10px;
     color: rgb(252, 246, 246);
     text-shadow: 1px 3px rgb(5, 5, 5);
-    width: 900px;
+    width: auto;
     margin: 50px; 
 }
 
-
 .jacuzzi{
     border: solid 1px black;
-    padding: 3px;
-    margin: 25px;
+    padding: 4px;
+    margin: 500px;
     border-radius: 20px;
+    object-fit: cover;
+    display: block;
+}
+img{
+    width: 60%;
+    height: auto;
+
+}
+
+@media (min-widht: 700px) {
+    .contenedorNosotros{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .contenedorTexto{
+        font-weight: 200%;
+        font-size: 1.875rem;
+        text-align: center;
+        height: 20%;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 25px;
+        
+    }
+    .jacuzzi{
+        width: 100px;
+        
+    }
 }

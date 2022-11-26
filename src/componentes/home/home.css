@@ -26,7 +26,6 @@
     padding: 40px;
     color: rgb(241, 237, 237);
     text-shadow: 1px 1px rgb(5, 5, 5);
-    overflow: auto;
     width: 500px;
     height: 350px;
 }

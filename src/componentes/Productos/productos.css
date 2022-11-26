@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body{
+    background-image: url('../img/gotasAgua.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /* no puedo cambiar los tamaños de las fotos para que queden igual */
 .atermicosProductos{
     display: flex;
@@ -10,10 +16,10 @@
     gap: 10px;
     justify-content: center;
     padding: 25px 5px;
-    background-image: url('../img/gotasAgua.jpg');
+    /* background-image: url('../img/gotasAgua.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 .btnCompre{
