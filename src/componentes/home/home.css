@@ -1,9 +1,12 @@
-.contenedorHome{
+body{
     background-image: url('../img/fondo.jpg');
     background-color: rgb(221, 219, 219);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.contenedorHome{
     padding: 2rem;
     
 }
@@ -47,4 +50,19 @@
     border-radius: 20px;
     width: 600px;
     height: 700px;
+}
+
+@media(max-widht:350px) {
+    .piletasillon{
+        height: 10px;
+        width: 20px;
+    }
+    .pileDos{
+        height: 5px;
+        width: 20px;
+    }
+    .pileTres{
+        height: auto;
+        width: 20%;
+    }
 }

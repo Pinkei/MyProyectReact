@@ -1,4 +1,4 @@
-import Footer from "../footer/footer"
+import Fotter2 from "../footer/fotter2"
 import Productos from "../Productos/Productos"
 
 
@@ -8,7 +8,7 @@ const tienda = () => {
         <div>
             <h1>Nuestros productos</h1>
             <Productos/>
-            <Footer/>
+            <Fotter2/>
         
         </div>
     )

@@ -13,3 +13,68 @@
     right: 0;
 
 }
+.footer{
+    position: absolute;
+    bottom: -10;
+    left: 0;
+    right: 0;
+    background: #1C1C1C;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer__content > h3{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: rgba(0, 255, 255, 0.555);
+}
+.redes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.redes li{
+    margin: 0 10px;
+}
+.redes a{
+    text-decoration: none;
+    color: #fff;
+}
+.redes a .i{
+    font-size: 1.7rem;
+    transition: color .4s ease;
+}
+.redes__whatsapp:hover .i{
+    color:#29f14a;
+}
+.redes__instagram:hover .i{
+    color:#E1306C;
+}
+.redes__gmail:hover .i{
+    color:#fcff40;
+}
+.footer__copy{
+    background: #0A0A0A;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+.footer__copy p{
+    font-size: 0.875rem;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer__copy span{
+    font-weight: bold;
+}

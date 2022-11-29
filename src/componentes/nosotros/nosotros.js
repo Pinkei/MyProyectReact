@@ -2,19 +2,20 @@ import React from "react"
 import "../nosotros/nosotros.css"
 import Footer from "../footer/footer"
 import Carrusel from "../nosotros/carrusel"
+import Fotter2 from "../footer/fotter2"
 
 
 const nosotros = () => {
     return(
         <header className="contenedorNosotros">
             <h1>Nosotros</h1>
-            <div className="contenedorTexto">
-            <p>Somos una empresa familar que se dedica a la venta de baldosas atermicas hace 11 años, nuestras placas son totalmente atermicas no tienen cemento debajo. Por eso su excelente calidad. La importancia de la placa atermica es que, no se calienta con el sol, no quema los pies al pisarla. No se desgranan nuestras placas. Se puede usar en Terrazas queda muy bien y no quemaría los pies. Debido a eso la casa también quedaría más fría. Solo se debe tener en cuenta si el techo soporta el peso ya que cada una pesa 7.3 kilos. 
+            <div>
+            <p className="contenedorTexto">Somos una empresa familar que se dedica a la venta de baldosas atermicas hace 11 años, nuestras placas son totalmente atermicas no tienen cemento debajo. Por eso su excelente calidad. La importancia de la placa atermica es que, no se calienta con el sol, no quema los pies al pisarla. No se desgranan nuestras placas. 
                 </p>
             </div>
             <div >
             <Carrusel/>
-            <Footer/>
+            <Fotter2/>
             </div>
         </header>
         
