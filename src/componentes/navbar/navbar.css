@@ -10,3 +10,14 @@ section{
 background-color: rgba(96, 175, 175, 0.993);
 
 }
+
+@media(min-widht:350px){
+    .NavA{
+        width: 20px;
+        height: 10px;
+    }
+    .section{
+        width: 20px;
+    }
+}
+/* no hace NAADAAA */

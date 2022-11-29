@@ -9,7 +9,7 @@ import pileta from "../img/pileta.jpeg"
 
 const Home = () => {
     return(
-        <header className="contenedorHome">
+        <main className="contenedorHome">
             <h1>Bienvenidos</h1>
             <div>
             <img src={icon} className="piletasillon" alt="Foto perfil"/>
@@ -20,7 +20,7 @@ La porosidad de su textura previene deslizamientos brindando mayor seguridad res
             <img src={pileta} className="piletasillon" alt="Foto perfil 3"/>
             </div>
             <Fotter2/>
-        </header>
+        </main>
     );
 };
 export default Home
