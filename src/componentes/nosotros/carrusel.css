@@ -5,8 +5,10 @@
 
 .contenedorImgWe{
     padding: 30px;
-    width: 60%;
-    box-shadow: 5px 5px 3px lightblue inset;
+    margin: 10px;
+    width: 100%;
+    box-shadow: 5px 5px 3px rgb(169, 226, 245) inset;
+    height: 50%;
 }
 
 .contenedorTextoWe{
@@ -14,12 +16,18 @@
     display: inline-block;
     font-style: italic;
     font-weight: 450;
-    font-size: 2rem;
-    line-height: 1.6;
-    padding: 50px;
+    font-size: 20px;
+    line-height: 1;
+    padding: 10px;
     color: rgb(8, 4, 4);
-    text-shadow: 2px 3px rgb(255, 253, 253);
+    text-shadow: 2px 2px rgb(238, 236, 236);
     margin: 70px; 
     
 }
 
+.tituloCarrusel{
+    font-size: 30px;
+    padding: 10px;
+    text-shadow: 2px 2px rgb(10, 9, 9);
+    color: aqua;
+}
