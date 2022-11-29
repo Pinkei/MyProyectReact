@@ -1,6 +1,5 @@
 import React from "react"
 import "../nosotros/nosotros.css"
-import Footer from "../footer/footer"
 import Carrusel from "../nosotros/carrusel"
 import Fotter2 from "../footer/fotter2"
 
