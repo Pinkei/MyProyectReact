@@ -16,10 +16,14 @@ body{
     background-size: cover;
     background-position: center;
     padding: 2rem;
-    height: 120vh;
+    height: 190vh;
     color: black;
-    text-shadow: 1px 2px rgb(209, 197, 197);
+    text-shadow: 1px 2px rgb(71, 228, 240);
     
+}
+
+.guiaTexto{
+    font-size: 30px;
 }
 .formEstilo{
     font-size: 1.563rem;
@@ -27,25 +31,29 @@ body{
     padding: 40px;
     margin: 1rem auto;
     font-weight:bold;
-    line-height: 1.4;
+    line-height: 4;
     margin: 10px;
-    width: 90%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
-    text-shadow: 1px 2px rgb(209, 197, 197);
+    text-shadow: 1px 2px rgb(101, 105, 105);
     border: 1px solid black;
     border-radius: 25px;
     backdrop-filter: blur(12px);
+}
+
+.requerimientos{
+    color: brown;
 }
 
 .botonEnviar{
     background-color: rgba(51, 238, 238, 0.747);
     border-color: rgb(4, 5, 5);
     border-radius: 10px;
-    margin: 2px;
+    margin: 5px;
     padding: 4px;
     width: 100px;
-    height: 60px;
+    height: 60%;
     
 }
 
@@ -58,21 +66,54 @@ body{
     
 
 }
-/* .main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5vh;
-} */
 
 .inputContenedor::placeholder{
     color: black;
 }
-
-@media(max-widht:350px){
-    .formEstilo input{
-        box-sizing: border-box;
-        width: 30%;
+/* celulares */
+@media(max-width:480px){
+    .formEstilo {
+        width: 100%;
+        margin: 5px;
+        padding: 10px;
+        line-height: 3;
+        font-size: 18px;
         
+    }
+    .guiaTexto{
+        font-size: 18px;
+    }
+}
+/* tabletas */
+@media(min-width:480px) and (max-width:767px){
+    .formEstilo {
+        width: 100%;
+        margin: 5px;
+        padding: 10px; 
+        line-height: 3.5;
+        font-size: 20px;
+        
+    }
+    .guiaTexto{
+        font-size: 22px;
+    }
+}
+
+/* tabletas de diez pulgadas */
+@media(min-width:768px) and (max-width:1024px){
+    .formEstilo {
+        width: 100%;
+        margin: 5px;
+        padding: 10px; 
+        line-height: 3.5;
+        font-size: 25px;
+        
+    }
+    .guiaTexto{
+        font-size: 26px;
+    }
+    .botonEnviar{
+        height: 15%;
+        width: 15%;
     }
 }

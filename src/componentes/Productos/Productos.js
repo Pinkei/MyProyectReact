@@ -9,7 +9,7 @@ import Producto from "../Productos/Producto";
 const Productos = () => {
 
     const [Productos] = useState([
-        { className:"bb" ,
+        { 
           id: 1,
           name: "Borde ballenas",
           precio: 1350,

@@ -12,7 +12,7 @@ const Contacto = () => {
     return(
         <div className="form">
             <h1>Contacto</h1>
-            <h3> Para ponerse en contacto con nosotros complete el siguiente formulario</h3>
+            <h3 className="guiaTexto"> Para ponerse en contacto con nosotros complete el siguiente formulario</h3>
             <main class="main">
 
             <form className="formEstilo" onSubmit={handleSubmit(onSubmit)}>
@@ -21,9 +21,9 @@ const Contacto = () => {
                 <input type="text" placeholder="Nombre" className="inputContenedor" {...register('nombre',{required: true,
                 maxLength:10})} />
 
-                {errors.nombre?.type==='required' && <p>El campo nombre es obligatorio</p>}
+                {errors.nombre?.type==='required' && <p className="requerimientos">El campo nombre es obligatorio</p>}
 
-                {errors.nombre?.type==='maxlength' && <p>El campo nombre debe tener menos de 10 caracteres</p>}
+                {errors.nombre?.type==='maxlength' && <p className="requerimientos">El campo nombre debe tener menos de 10 caracteres</p>}
 
             </div>
             <div>
@@ -37,20 +37,19 @@ const Contacto = () => {
                     pattern: /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/
                 })} />
 
-            {errors.email?.type==='pattern' && <p>El formato es incorrecto</p>}
+            {errors.email?.type==='pattern' && <p className="requerimientos">El formato es incorrecto</p>}
             </div>
             <div>
                 {/* <label>Telefono</label> */}
                 <input type="text" placeholder="Telefono" className="inputContenedor" {...register('telefono',{required: true,
                 maxLength:10})} />
 
-                {errors.telefono?.type==='required' && <p>El campo telefono es obligatorio</p>}
+                {errors.telefono?.type==='required' && <p className="requerimientos">El campo telefono es obligatorio</p>}
 
-                {errors.telefono?.type==='maxlength' && <p>El campo telefono debe tener menos de 10 caracteres</p>}
+                {errors.telefono?.type==='maxlength' && <p className="requerimientos">El campo telefono debe tener menos de 10 caracteres</p>}
 
             </div>
             <div>
-                {/* <label>Asunto</label> */}
                 <select className="inputContenedor" {...register('metodos')}>
                 <option value="as"> Asunto</option>
                     <option value="en"> Envios</option>
