@@ -20,7 +20,6 @@ const NavBarExamples = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
     <section>
         <Outlet></Outlet>
     </section>

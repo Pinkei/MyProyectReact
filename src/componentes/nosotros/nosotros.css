@@ -34,8 +34,10 @@ img{
 
 }
 
-@media(max-widht:350px) {
+@media(max-width:480px){
     .contenedorTexto{
-        display: none;
+        font-size: 1rem;
+        margin: 2px;
+        padding: 5px;
     }
 }
