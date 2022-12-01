@@ -57,6 +57,8 @@ body{
     .piletasillon{
         padding: 4px;
         margin: 6px;
+        width: 80%;
+        height: 40%;
         }
 }
 
@@ -68,5 +70,13 @@ body{
     .piletasillon{
         padding: 4px;
         margin: 6px;
+        width: 80%;
+        height: 40%;
+    }
+}
+@media(min-width:1025px){
+    .piletasillon{ 
+    width: 80%;
+        height: 40%;
     }
 }

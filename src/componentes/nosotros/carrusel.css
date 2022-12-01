@@ -70,6 +70,10 @@ color: black;
     .tituloCarrusel{
         font-size: 20px;
     }
+    .contenedorImgWe{
+        width: 80%;
+        height: 40%;
+    }
 }
 
 @media(min-width:1025px) {
@@ -79,4 +83,9 @@ color: black;
     .tituloCarrusel{
         font-size: 25px;
     }
+    .contenedorImgWe{
+        width: 80%;
+        height: 40%;
+    }
+    
 }

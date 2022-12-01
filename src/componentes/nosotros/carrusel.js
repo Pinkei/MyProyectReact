@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "./carrusel.css"
-import casaPiletaLista from "../img/casaPiletaLista.jpg"
+import casaPiletaLista2 from "../img/casaPiletaLista2.jpg"
 import pileLista from "../img/pileLista.jpeg"
 import bordeate from "../img/bordeate.jpg"
 
@@ -11,7 +11,7 @@ function CarouselFadeExample() {
         <Carousel.Item>
           <img
             className="contenedorImgWe"
-            src={casaPiletaLista}
+            src={casaPiletaLista2}
             alt="primera foto"
           />
           <Carousel.Caption>

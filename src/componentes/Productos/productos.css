@@ -9,7 +9,7 @@ body{
     background-size: cover;
     background-position: center;
 }
-/* no puedo cambiar los tamaños de las fotos para que queden igual */
+
 .atermicosProductos{
     display: flex;
     flex-wrap: wrap;
@@ -25,5 +25,36 @@ body{
     font-weight:bold;
     background-color:rgb(27, 27, 29); 
     color:white; 
-    text-decoration:underline; 
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+    
+    .btnCompre:hover{
+        background-color: rgb(32, 173, 173);
+        color: rgb(5, 75, 107);
+        transition: 1s;
+}
+.titulo{
+    font-size: 2.188rem;
+    color: rgb(12, 12, 12);
+    text-shadow: none;
+
+}
+.role{
+    font-size: 1.4rem;
+    color: rgb(2, 2, 2);
+    text-shadow: none;
+    font-weight: bold;
+    margin: 1px;
+}
+.precio{
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.836);
+    text-shadow: none;
+    font-weight: bold;
+    
+}
+.precio span{
+    color: rgb(89, 241, 241);
 }
