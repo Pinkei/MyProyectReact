@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
 .atermicosProductos{
@@ -57,4 +58,21 @@ body{
 }
 .precio span{
     color: rgb(89, 241, 241);
+}
+
+/* Celulares */
+@media(max-width:480px){
+    .titulo{
+        font-size: 1.5rem;
+        text-shadow: 1px 1px rgb(255, 255, 255);
+    }
+    .role{
+        font-size: 1.3rem;
+        
+    }
+    .precio{
+        font-size: 1.3rem;
+        color: black;
+        text-shadow: 1px 1px rgb(255, 255, 255);
+    }
 }
