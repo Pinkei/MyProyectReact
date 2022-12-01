@@ -43,7 +43,9 @@ body{
 }
 
 .requerimientos{
-    color: brown;
+    color: red;
+    font-size: 14px;
+    text-shadow: none;
 }
 
 .botonEnviar{
@@ -82,6 +84,9 @@ body{
     }
     .guiaTexto{
         font-size: 18px;
+    }
+    .requerimientos{
+        font-size: 10px;
     }
 }
 /* tabletas */

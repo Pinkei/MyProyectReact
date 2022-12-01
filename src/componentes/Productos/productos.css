@@ -11,6 +11,12 @@ body{
     
 }
 
+.titleTienda{
+    color: black;
+    text-shadow: 1px 1px aquamarine;
+    font-style: oblique;
+    padding: 1rem;
+}
 .atermicosProductos{
     display: flex;
     flex-wrap: wrap;

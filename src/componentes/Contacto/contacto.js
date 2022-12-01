@@ -4,9 +4,6 @@ import "./contacto.css"
 
 
 const Contacto = () => {
-    const Enviar = () => {
-        alert('Formulario enviado exitosamente ')
-    }
     const { register, formState:{errors} ,handleSubmit } = useForm("");
     const onSubmit = (data) =>{
         console.log(data);
@@ -60,7 +57,7 @@ const Contacto = () => {
                     <option value="ct"> Citas </option>
                 </select>
             </div>
-            <input onClick={()=>Enviar()} type="Submit" value="Enviar" className="botonEnviar"/>
+            <input type="Submit" value="Enviar" className="botonEnviar"/>
         </form>
         </main>
         </div>
