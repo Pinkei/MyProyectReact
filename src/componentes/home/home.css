@@ -39,9 +39,12 @@ body{
 /* celulares */
 @media(max-width:480px) {
     .contenedorbb{
-        font-size: 14px;
+        font-size: 15px;
         padding: 3px;
         margin: 5px;
+        color: black ;
+        text-shadow: 1px 1px rgb(255, 255, 255);
+        font-weight: bold;
     }
     .piletasillon{
         padding: 3px;
@@ -53,6 +56,9 @@ body{
 @media(min-width:480px) and (max-width:767px){
     .contenedorbb{
         font-size: 18px; 
+        color:black;
+        text-shadow: 1px 1px rgb(255, 255, 255);
+        font-weight: bold;
     }
     .piletasillon{
         padding: 4px;

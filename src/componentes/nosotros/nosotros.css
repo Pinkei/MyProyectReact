@@ -4,7 +4,7 @@
 }
 
 .contenedorNosotros{
-    background-image: url('../img/aguaFondo.jpg');
+    background-image: url('../img/fondo2.jpg');
     background-color: rgb(221, 219, 219);
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,11 +21,12 @@
     font-size: 1.8rem;
     line-height: 1.4;
     padding: 10px;
-    color: rgb(252, 246, 246);
-    text-shadow: 1px 3px rgb(5, 5, 5);
+    color: black;
+    text-shadow: 1px 1px white;
     width: 100%;
     margin: 10px; 
     height: 50%;
+    font-weight: bold;
 }
 
 img{
