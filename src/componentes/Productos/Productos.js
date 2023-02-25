@@ -29,7 +29,7 @@ const Productos = () => {
           name: "Esquineros",
           precio: 1350,
           role: "Esquienros para pileta de fibra",
-          img: "https://http2.mlstatic.com/D_NQ_NP_658465-MLA52308128836_112022-O.webp"
+          
         },
         {
           id: 4,

@@ -4,11 +4,8 @@
 }
 
 body{
-    background-image: url('../img/gotasAgua.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
+    background-color: red;
+
 }
 
 .titleTienda{
@@ -31,7 +28,7 @@ body{
     border-radius: 5px;
     font-weight:bold;
     background-color:rgb(27, 27, 29); 
-    color:white; 
+    color:rgb(255, 255, 255); 
     width: 150px;
     height: 40px;
     border: none;
@@ -57,7 +54,7 @@ body{
 }
 .precio{
     font-size: 1.4rem;
-    color: rgba(255, 255, 255, 0.836);
+    color: rgba(17, 16, 16, 0.836);
     text-shadow: none;
     font-weight: bold;
     

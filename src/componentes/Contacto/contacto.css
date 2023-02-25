@@ -10,16 +10,10 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 .form{
-    background-image: url('../img/fondo.jpg');
-    background-color: rgb(221, 219, 219);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #93BFCF;
     padding: 2rem;
-    height: 190vh;
+    /* height: 190vh; */
     color: black;
-    text-shadow: 1px 2px rgb(71, 228, 240);
-    
 }
 
 .guiaTexto{
@@ -65,8 +59,6 @@ body{
     background-color: transparent;
     width: 85%;
     color: black;
-    
-
 }
 
 .inputContenedor::placeholder{
@@ -111,8 +103,7 @@ body{
         margin: 5px;
         padding: 10px; 
         line-height: 3.5;
-        font-size: 25px;
-        
+        font-size: 25px; 
     }
     .guiaTexto{
         font-size: 26px;

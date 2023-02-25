@@ -4,13 +4,8 @@
 }
 
 .contenedorNosotros{
-    background-image: url('../img/fondo2.jpg');
-    background-color: rgb(221, 219, 219);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #93BFCF;
     padding: 2rem;
-    height: 100%;
 }
 
 .titleNosotros{
